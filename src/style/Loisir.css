@@ -1,0 +1,40 @@
+
+.Loisir{
+    margin: 5%;
+    display: none;
+    text-align: left;
+}
+
+.Loisir > div{
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    box-shadow: inset 0 0 0 0 var(--highter-color);
+    transition: color 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+}
+.Loisir div div{
+    margin: 0 20px;
+}
+.Loisir p{
+    display: none;
+}
+.Loisir > div:hover{
+    display: flex;
+    box-shadow: inset 100em 0 0 0 var(--highter-color);
+}
+.Loisir > div:hover p{
+    display: block;
+}
+.Loisir > div:hover h3{
+    display: none;
+}
+.Loisir h3{
+    margin-left: 1vw;
+    text-align: left;
+}
+
+.LogoLoisir {
+    height: 10vh;
+    min-width: 12%;
+    max-width: 20%;
+}

@@ -23,6 +23,8 @@ function App() {
             });
         }
         addHoverEffect('.Skill > div')
+
+
         function select(selector, div) {
             const elements = document.querySelectorAll(selector)
             elements.forEach(e => {
@@ -92,7 +94,7 @@ function App() {
                     <h1>ARMAND DORARD</h1>
                     <img className="Flag" src="./img/uk_logo.png" alt="uk flag"/>
                     <img className="Flag" src="./img/french_logo.png" alt="french flag"/>
-                    <img className="Flag" src="./img/re_logo.png" alt="reunion island flag"/>
+                    {/*<img className="Flag" src="./img/re_logo.png" alt="reunion island flag"/>*/}
                 </div>
             </section>
             <section className="mid">
@@ -105,16 +107,15 @@ function App() {
                     </div>
                     <p>
                         Armand Dorard, 24ans, <br/>
-                        Recherche un post en tant que developer web <br/>
-                        pour fin 2024 <br/>
+                        Full stack Web Developer  & scraper men
                         <br/>
-                        Poste: Developer web full stack / scraper men
                     </p>
                     <div>
                         <img className="Logo" src="./img/marker_logo.png" alt="localisation"/>
-                        <p>Houilles, 78800</p>
+                        <p>Paris, 78800</p>
                     </div>
-                    <p>Dernière mise à jour : 07/11/2023</p>
+
+                    <p>I like learning new languages !</p>
                 </div>
                 <div className="middle">
                     <iframe
@@ -126,17 +127,16 @@ function App() {
                     <Skill/>
                     <Loisir/>
 
-
                     {/*<section>
                         <img width="100%"
                              src="https://github-readme-stats.vercel.app/api/pin/?username=Ericar974&repo=MiamTime&show_owner=true"/>
                     </section>*/}
                 </div>
                 <div className="right">
-                    <h2 id="forma">Formation</h2>
-                    <h2 id="exp">Expériences</h2>
+                    <h2 id="forma">Education</h2>
+                    <h2 id="exp">Experiences</h2>
                     <h2 id="skill">Skills</h2>
-                    <h2 id="loisir">Loisirs</h2>
+                    <h2 id="loisir">Hobbies</h2>
                 </div>
             </section>
             <section className="bot">

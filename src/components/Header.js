@@ -6,10 +6,8 @@ function Header() {
             <div className="Description">
                 <p>
                     Armand Dorard, 24ans, <br/>
-                    Recherche un post en tant que developer web <br/>
-                    pour fin 2024 <br/>
-                    <br/>
-                    Poste: Developer web full stack / scraper men
+                    Developer web full stack & a scraper men
+                    Enjoy learning new languages !
                 </p>
 
                 <img className="Logo" src="./img/marker_logo.png" alt="localisation"/>

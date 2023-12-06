@@ -7,8 +7,9 @@ function Skill() {
                 </div>
                 <div>
                     <h3>Soft Skills</h3>
-                    <p>salut</p>
-                    <p>salut</p>
+                    <p>Listen and help</p>
+                    <p>Adaptive</p>
+                    <p>Design Thinker</p>
                 </div>
             </div>
 
@@ -18,8 +19,12 @@ function Skill() {
                 </div>
                 <div>
                     <h3>Hard Skills</h3>
-                    <p>salut</p>
-                    <p>salut</p>
+                    <p>Docker & Servers management</p>
+                    <p>Javascript (React, Vue, Express, ...) </p>
+                    <p>Php & Laravel</p>
+                    <p>Python & Django</p>
+                    <p>Scrapping JS/PY</p>
+                    <p>Mysql & MongooDB</p>
                 </div>
             </div>
 

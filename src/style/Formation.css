@@ -3,3 +3,47 @@
     height: 100%;
     text-align: center;
 }
+h4{
+    font-weight: bold;
+}
+.imageFormation {
+    width: 20vw;
+    height: auto;
+    display: block;
+}
+
+
+.hoverOpacity {
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.containerFormation{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4vw;
+}
+.imageContainer {
+    margin: 1px;
+    position: relative;
+    overflow: hidden; /* Pour assurer que le texte ne dépasse pas l'image */
+}
+
+.textOverlay {
+    position: absolute;
+    top: 30%; /* Ajustez selon vos besoins */
+    left: 50%; /* Ajustez selon vos besoins */
+    transform: translate(-50%, -50%); /* Centre le texte */
+    text-align: center; /* Ajustez selon vos besoins */
+    padding: 20px; /* Ajustez selon vos besoins */
+    z-index: -1;
+    width: 100%;
+}
+
+.textOverlay p {
+    margin: 0; /* Supprime la marge par défaut du paragraphe */
+}
+

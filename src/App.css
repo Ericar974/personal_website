@@ -4,9 +4,15 @@
   --main-color: rgba(66, 1, 125, 0.18);
   --highter-color : rgba(67, 39, 125, 0.20);
   --second-color: black;
+
+  --DMmain-color: rgba(0, 0, 0, 0.85);
+  --DMhighter-color : rgba(206, 206, 206, 0.65);
+  --DMsecond-color: white;
 }
 
-
+*{
+  font-family: "Abyssinica SIL";
+}
 body{
   background-color:var(--main-color);
   color: var(--second-color);
@@ -100,7 +106,7 @@ h1{
 .language{
   padding-top: 0.5vh;
   display: flex;
-  justify-content: center;
+  justify-content: right;
 }
 
 
@@ -119,17 +125,17 @@ h1{
   margin-left:0.5vw;
   margin-right:0.5vw;
 }
+
 .left {
   width: 19.5vw;
   height: 100%;
   border: solid 1px var(--second-color);
+}
 
-}
 .left > div:not(.Image){
-  margin: 0 4vw;
-  border: solid 5px var(--second-color);
-  border-radius: 50%;
+  padding: 10px;
 }
+
 .left > div:not(.Image):hover{
   cursor: pointer;
   background-color: var(--highter-color);
@@ -164,6 +170,45 @@ h1{
 .bot{
   height: 5vh;
   width: 100vw;
+}
+
+@media (prefers-color-scheme: dark) {
+  body{
+    background-color:var(--DMmain-color);
+    color: var(--DMsecond-color);
+  }
+  .App-header div:not(.TREETOP) {
+    color: var(--DMsecond-color);
+  }
+  .mid{
+    box-shadow: 0 0 10px var(--DMsecond-color);
+  }
+  .left {
+    border: solid 1px var(--DMsecond-color);
+  }
+  .left > div:not(.Image){
+    border: solid 5px var(--DMsecond-color);
+  }
+  .left > div:not(.Image):hover{
+    background-color: var(--DMhighter-color);
+  }
+
+  .middle{
+    border: solid 1px var(--DMsecond-color);
+  }
+
+  .right {
+    border: solid 1px var(--DMsecond-color);
+  }
+  .right > h2{
+    border: solid 5px var(--DMsecond-color);
+  }
+  .clicked{
+    background-color: var(--DMhighter-color);
+  }
+  .right > h2:hover{
+    background-color: var(--DMhighter-color);
+  }
 }
 
 
